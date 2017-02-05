@@ -245,3 +245,112 @@ input[type=submit]:active, input[type=submit]:hover {
 	width: 400px;
 	height: 50px;
 }
+
+@media screen and (max-width: 980px) {
+	.content-area {
+		width: 720px;
+	}
+
+	#main-content {
+		width: 420px;
+	}
+
+	#headshot {
+		display: block;
+	    margin: auto;
+	    float: none;
+	    padding: 20px 30px 20px 30px;
+	}
+	
+	#main-content > p {
+		clear: both;
+		padding: 0 30px 30px 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.content-area {
+		width: 720px;
+	}
+
+	#main-content {
+		width: 720px;
+	}
+
+	#sidebar {
+		width: 720px;
+	}
+
+	#headshot {
+		display: inline;
+		float: left;
+		padding: 20px 30px 30px 30px;
+		margin: 0;
+	}
+
+	#main-content > p {
+		clear: none;
+    	padding: 15px 30px 30px 30px;
+	}
+
+	#icon-container {
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		width: 640px;
+		position: static;
+	}
+
+	.content-area {
+		width: 640px;
+	}
+
+	#main-content {
+		width: 580px;
+		margin: 22px;
+	}
+	
+	#headshot {
+		display: block;
+	    margin: auto;
+	    float: none;
+	    padding: 20px 30px 20px 30px;
+	}
+
+	#main-content > p {
+		clear: none;
+	   	padding: 0 30px 30px 30px;
+	}
+
+	#sidebar {
+		width: 580px;
+		margin: 0 0 0 22px;
+		float: left;
+	}
+
+	h1 {
+		line-height: 50px;
+		float: none;
+		text-align: center;
+	}
+
+	nav > ul {
+		line-height: 64px;
+		float: none;
+		width: 640px;
+		margin: 0;
+		text-align: center;
+	}
+
+	nav > ul > li:not(:last-child) {
+		margin-right: 70px;
+    	padding-right: 70px;
+	}
+
+	footer {
+		max-width: 640px;
+	}
+}
