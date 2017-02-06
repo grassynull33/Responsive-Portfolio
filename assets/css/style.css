@@ -281,11 +281,14 @@ input[type=submit]:active, input[type=submit]:hover {
 		width: 356px;
 	}
 
+	input[type=text], input[type=email], textarea {
+		width: 338px;
+	}
 }
 
 @media screen and (max-width: 768px) {
 	.content-area {
-		width: 720px;
+		width: 710px;
 	}
 	
 	nav > ul {
@@ -293,11 +296,13 @@ input[type=submit]:active, input[type=submit]:hover {
 	}
 
 	#main-content {
-		width: 720px;
+		width: 710px;
 	}
 
 	#sidebar {
-		width: 720px;
+		width: 710px;
+		padding-bottom: 10px;
+		padding-bottom: 10px;
 	}
 
 	#headshot {
@@ -328,6 +333,16 @@ input[type=submit]:active, input[type=submit]:hover {
 	.proj-div > img {
 		width: 310px;
 	}
+
+	input[type=text], input[type=email], textarea {
+		width: 635px;
+		max-width: 635px;
+		margin-left: 1px;
+	}
+
+	input[type=submit] {
+		margin: 10px 0 -20px 0;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -343,7 +358,7 @@ input[type=submit]:active, input[type=submit]:hover {
 	#main-content {
 		width: 580px;
 		margin: 22px;
-		padding-bottom: 40px;
+		padding-bottom: 30px;
 		margin-bottom: 40px;
 	}
 	
@@ -389,7 +404,7 @@ input[type=submit]:active, input[type=submit]:hover {
 	}
 
 	.proj-div {
-		margin: 0 0 150px 0;
+		margin: 0 0 160px 0;
 	}
 
 	.proj-div > a {
@@ -399,5 +414,13 @@ input[type=submit]:active, input[type=submit]:hover {
 
 	.proj-div > img {
 		width: 515px;
+	}
+
+	input[type=text], input[type=email], textarea {
+		width: 495px;
+	}
+
+	input[type=submit] {
+		margin-top: 10px;
 	}
 }
